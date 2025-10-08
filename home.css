@@ -1,0 +1,77 @@
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    animation: 1.5s fadeIn;
+}
+
+body{
+    background-color: rgb(214, 213, 148);
+}
+.topnav{
+    background-color: beige;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: right;
+    color: rgb(125, 80, 52);
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: rgba(254, 193, 179, 0.744);
+
+}
+
+.topnav a.active{
+    background-color: rgb(190, 249, 190);
+}
+
+.image-container{
+    margin: 2em auto;
+    text-align: center;
+}
+
+.image-container img{
+    width: 100%;
+    max-height: 30em;
+    object-fit: cover;
+    /* filter: brightness(90%); */
+    filter: contrast(70%);
+    border-style: solid;
+    border-color: rgb(181, 132, 108);
+    border-width: 0.2em;
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(252, 234, 230);
+    text-align: center;
+    font-size: 7em;
+}
+
+.explain{
+    text-align: center;
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-style: solid;
+    border-color:rgb(168, 181, 108);
+    color: rgb(154, 114, 69);
+}

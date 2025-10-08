@@ -1,0 +1,116 @@
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.fadeIn{
+    animation: 1.5s fadeIn;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color:rgb(212, 220, 230);
+    text-align: center;
+    padding: 1%;
+    border-radius: 0.8em;
+    margin-right: 3%;
+    margin-left: 3%;
+    }
+
+.topnav a{
+    text-align: center;
+    padding: 7%;
+    text-decoration: none;
+    color:rgb(100, 100, 118);
+}
+
+.topnav a:hover{
+    background-color: rgb(234, 233, 244);
+}
+
+.explain{
+    text-align: center;
+    font-family: Bitter, "Serif";
+    color:rgb(43, 42, 91);
+    padding-top: 3%;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/736x/ab/e6/81/abe6814d15c01e171b82c946c798839f.jpg);
+}
+
+p{
+    color:rgb(43, 42, 91);
+}
+
+
+.recipe.card{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 3%;
+    padding: 2%;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color:rgb(150, 149, 187);
+    background-color: rgba(216, 218, 232, 0.861);
+    border-radius: 2em;
+
+}
+
+
+.recipe.card img{
+    width: 25em;
+    height: 20em;
+    object-fit: cover;
+    border-radius: 2em;
+}
+
+.text{
+    width: 25em;
+    font-family: Oxygen, "sans-serif";
+    font-weight: 300;
+    font-style: normal;
+}
+
+.recipe.card a{
+ color: rgb(84, 83, 151);
+ text-decoration-style: wavy;
+}
+
+.recipe.card a:hover{
+    color: rgb(118, 161, 198);
+    text-decoration-style: solid;
+    /* transition: 1.5s; */
+}
+
+
+.bitter{
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+/* .oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.oxygen-regular {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+} */

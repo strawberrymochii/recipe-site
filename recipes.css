@@ -1,0 +1,64 @@
+
+
+@media (max-width: 600px) {
+    .container{
+        grid-template-columns: auto;
+    }
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    animation: 1.5s fadeIn;
+}
+
+body{
+    font-family: 'gamja flower', cursive;
+    font-size: 100%;
+    background-color: peachpuff;
+    margin: 5%;
+    padding: 2%;
+}
+
+h1{
+    font-size: 300%;
+}
+
+.notes{
+    line-height: 150%;
+    font-size: 120%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-right: 45%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    background-color: white;
+    border-radius: 2em;
+    border-color:rgb(250, 158, 175);
+    border-style: solid;
+
+}
+.recipe{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.column{
+    flex: 1;
+    box-sizing: border-box;
+    font-size: 120%;
+    line-height: 150%;
+}
+

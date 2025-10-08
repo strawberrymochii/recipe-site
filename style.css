@@ -1,0 +1,278 @@
+@media (max-width: 600px) {
+    .container{
+        grid-template-columns: auto;
+    }
+}
+
+/*
+color combos:
+
+pink: #ffc5ce, #f8dedd. #fbe8e6, #fef6f1
+blue-brown: #e1f1ff, #fbf9f5, #b19081, #514943
+peach-pink: #fca9be, #ffc0d0, #ffe0e0, #fffafa
+
+
+*/
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    animation: 1.5s fadeIn;
+}
+
+.topnav{
+    padding: 3%;
+    background-color: #ffe0e0;
+    overflow: hidden;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.topnav a{
+    float: right;
+    color: rgb(125, 151, 174);
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+header{
+    padding-bottom: 5%;
+
+}
+
+.header-inner{
+    background-color: #fce7e1;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 7%;
+    background-image: url(https://plus.unsplash.com/premium_vector-1724869485270-31adb46fce06?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: contain;
+    border-style: dotted;
+    /* border-color: #a5d68e; */
+    border-color:#e6bdaa;
+    border-width: 0.2em;
+    /* box-shadow: 0 0 0.2em rgb(96, 208, 96); */
+    border-radius: 1em;
+}
+
+body{
+    background-image: url(https://sadhost.neocities.org/images/tiles/heartpinkpas.gif);
+    background-color: #f8dedd;
+    background-attachment: fixed;
+    margin-right: 8%; 
+    margin-left: 8%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.box02{
+background-color: #ffc5ce;
+border:solid 0.15em #e6bdaa;
+margin:1em 0;
+padding: 5% 0;
+padding-bottom: 7%;
+width:100%;
+border-radius: 1em;
+box-shadow: rgb(197, 189, 192) 0.3em 0.3em;
+}
+.box-inner{
+background:#fffafa;
+/* border-bottom:0.2em dashed #a5d68e;
+border-top:0.2em dashed #a5d68e; */
+border-bottom: 0.2em dashed #e6bdaa;
+border-top: 0.2em dashed #e6bdaa;
+box-shadow:0 4px 0 #fff,0 -4px 0 #fff;
+/* padding: 2em 5em; */
+
+width: auto;
+}
+
+.explain{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    row-gap: 4em;
+    column-gap: 2%;
+    padding-bottom: 6%;
+    width: 100%;
+}
+
+.container img{
+    width: 15em;
+    height: 15em;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2%;
+    border-color: rgb(255, 219, 219);
+    transition: transform 0.2s;
+}
+
+
+img:hover{
+    transform: scale(1.03);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 5em;
+    text-align: center;
+    margin: 1%;
+    color: rgb(144, 116, 87);
+}
+
+.container h3{
+    font-family: 'gamja flower', cursive;
+    font-weight: 200;
+    font-size: 150%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    border-color: rgb(255, 219, 219);
+    border-style: solid;
+    border-width: 2%;
+    width: 9.999em;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 0.1%;
+    background-color: papayawhip;
+    transition: background-color, box-shadow 0.2s;
+
+}
+
+
+/*link style*/
+a:link {
+    color:#9b6a54;
+    text-decoration: none;
+    width: fit-content;
+    transition: 0.2s;
+
+}
+
+a:hover {
+    color:rgb(255, 61, 97);
+}
+
+h3:hover{
+    background-color: rgba(208, 255, 202, 0.703);
+    /* box-shadow: rgb(204, 191, 191) 0.1em 0.1em; */
+    border-color: #ffedf5;
+    box-shadow: 0 0 0.6em #ffaebf;
+}
+
+
+/* .background{
+    background-attachment: fixed;
+    background-position: center;
+}
+header{
+    background-color: #ffffff96;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+} */
+/* main{
+    background-color: #ffffff96;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+} */
+/* nav{
+    background-color: #ffffff96;
+    padding: 5px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+} */
+/* a{
+    color: #5ba13d;
+
+} */
+/* body{
+    background-image: url("https://aestheticwallpapers.io/wallpaper/926045.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+     */
+    /* background-image: linear-gradient(#f3fcec, #68edcb);
+    margin: 10px;
+    margin-bottom: 500px;
+    padding: 20px; */
+    
+/* }
+h1{
+    color: #5ba13d;
+    font-size: large;
+    font-family: comic sans ms;
+    
+}
+p{
+    color: #5ba13d;
+    font-size: medium;
+} */
+
+/* .container{
+    display: inline-flex;
+    
+}
+
+#color1{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color:#9bcaf8;
+
+}
+#color2{
+ width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color:#76b6cd;
+} */
+/* #color3{
+ width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color:#2ba3ce;
+}
+#color4{
+ width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color:#0c5e7c;
+} */
+/* footer{
+    background-color:#5387a4;
+    padding: 10px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+
+} */
+
+/*colors
+
+#845ec2
+#9b89b3
+#fff6ff
+#fefedf
+
+*/
